@@ -18,6 +18,7 @@
 }
 body {
   font-family: "Poppins", sans-serif;
+  background: var(--bluesoft);
 }
 .big-header {
   font-weight: var(--fwextrabold);
@@ -48,8 +49,13 @@ body {
   margin: 0;
 }
 
+.small-copy {
+  color: var(--navy);
+  font-size: 12px;
+}
+
 .btn-primary {
-  padding: 12px 20px;
+  padding: 12px 20px 12px 20px;
   background: var(--blue);
   color: var(--white);
   font-size: 16px;
@@ -58,14 +64,38 @@ body {
   border: 0;
 }
 
+.btn-primary:hover {
+  padding: 12px 20px 12px 20px;
+  background: var(--navy);
+  color: var(--white);
+}
+
 .btn-secondary {
-  padding: 12px 20px;
+  padding: 12px 20px 12px 20px;
   background: var(--grey);
   color: var(--navy);
   font-size: 16px;
   font-weight: var(--fwmedium);
   border-radius: 50px;
   border: 0;
+}
+
+.btn-secondary:hover {
+  padding: 12px 20px 12px 20px;
+  background: var(--navy);
+  color: var(--white) !important;
+}
+
+.badge {
+  background: var(--purplesoft);
+  color: var(--navy);
+  border-radius: 50px;
+  display: flex;
+}
+
+.icon {
+  display: flex;
+  padding: auto;
 }
 
 .navbar-nav .nav-item a:hover {
@@ -75,6 +105,50 @@ body {
 }
 
 .navbar-nav .nav-item a {
-  color: var(--blue);
+  color: var(--navy);
   transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-item {
+  padding-right: 25px;
+  padding-left: 25px;
+  font-weight: var(--fwregular);
+  transition: all 0.3s ease;
+}
+
+.navbar-brand {
+  font-weight: var(--fwbold);
+  font-size: 28px;
+  color: var(--navy);
+}
+
+.navbar {
+  --bs-navbar-padding-y: 0;
+}
+
+.cashier-navbar {
+  padding: 30px;
+  background: var(--white);
+  border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px;
+}
+
+.mt-70 {
+  margin-top: 70px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
 }
