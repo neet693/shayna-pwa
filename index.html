@@ -1,82 +1,322 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cashier Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- Link Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
 
-    <!-- Manifest -->
-    <link rel="manifest" href="manifest.json" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/style.css">
-
-    <title>Cashier Website</title>
-  </head>
-  <body>
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container cashier-navbar">
-        <a class="navbar-brand" href="#">Cashier</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Stories</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Plugin</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="btn btn-secondary" href="#">My Account</a>
-            </li>
-          </ul>
-        </div>
+<body>
+  <!-- Navbar Section -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container cashier-navbar">
+      <a class="navbar-brand" href="#">Cashier</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Stories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Plugins</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="btn btn-secondary" href="#">My Account</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <!-- Navbar End -->
-
-    <!-- Section Hero -->
-    <section class="header mt-70">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5 copywriting align-self-center">
-            <div class="badge mb-20">
-              <img class="icon" src="images/icon_secure.svg" alt="icon_secure">
-              <p class="small-copy">
-                We won 180 secure-system award
-              </p>
-            </div>
-            <h1 class="big-header mb-10">Secure way to <br> Make a Payment.</h1>
-            <p class="primary-copy mb-10">Lorem  dolor finance easy transaction with <br>
-              a great system that centralized normally.
+    </div>
+  </nav>
+  <!-- Header Section -->
+  <section class="header mt-70">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 copywriting">
+          <div class="badge mb-20">
+            <img src="images/shield-lock-fill.svg" alt="">
+            <p class="small-copy">
+              We won 180 secure-system award
             </p>
-            <a href="#" class="btn btn-primary mr-10">Get Started</a>
-            <a href="#" class="btn btn-secondary">Read Stories  </a>
           </div>
-          <div class="col-lg-7"><img src="images/payment.jpg" alt="img_payment" class="img-fluid"></div>
+          <h1 class="big-header mb-10">
+            Secure way to <br>
+            Make a payment
+          </h1>
+          <p class="primary-copy mb-30">
+            lorem dolor finace easy transaction with <br>
+            a great system that centralized normally
+          </p>
+          <a href="#" class="btn btn-primary mr-10">Get Started</a>
+          <a href="#" class="btn btn-secondary">Read Stories</a>
+        </div>
+        <div class="col-lg-7">
+          <img src="images/secure-unsplash.jpg" class="img-fluid" style="border-radius: 25px;" alt="">
         </div>
       </div>
-    </section>
-    <!-- End Section Hero -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="main.js"></script>
-  </body>
+    </div>
+  </section>
+  <!-- Companies Section -->
+  <section class="companies mt-70">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <h3 class="medium-header mb-10">
+            Trusted by Global Leaders
+          </h3>
+          <p class="primary-copy mb-30">
+            Dolor easy report and transaction growth
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-right mb-30">
+      <div class="carousel-wrapper-right">
+        <div class="card-brand mr-30">
+          <img src="images/Dunkin-logo.png" class="logo" alt="">
+        </div>
+        <div class="card-brand mr-30">
+          <img src="images/Google-logo.png" class="logo" alt="">
+        </div>
+        <div class="card-brand mr-30">
+          <img src="images/spotify-logo.png" class="logo" alt="">
+        </div>
+        <div class="card-brand mr-30">
+          <img src="images/Subway-logo.png" class="logo" alt="">
+        </div>
+        <div class="card-brand mr-30">
+          <img src="images/Kfc_logo-.png" class="logo" alt="">
+        </div>
+      </div>
+      <div class="carousel-wrapper-right">
+        <div class="card-brand mr-30">
+          <img src="images/Dunkin-logo.png" class="logo" alt="">
+        </div>
+        <div class="card-brand mr-30">
+          <img src="images/Google-logo.png" class="logo" alt="">
+        </div>
+        <div class="card-brand mr-30">
+          <img src="images/spotify-logo.png" class="logo" alt="">
+        </div>
+        <div class="card-brand mr-30">
+          <img src="images/Subway-logo.png" class="logo" alt="">
+        </div>
+        <div class="card-brand mr-30">
+          <img src="images/Kfc_logo-.png" class="logo" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="carousel-left">
+      <div class="carousel-wrapper-left">
+        <div class="card-brand mr-30">
+          <img src="images/Dunkin-logo.png" class="logo" alt="">
+        </div>
+        <div class="card-brand mr-30">
+          <img src="images/Google-logo.png" class="logo" alt="">
+        </div>
+        <div class="card-brand mr-30">
+          <img src="images/spotify-logo.png" class="logo" alt="">
+        </div>
+        <div class="card-brand mr-30">
+          <img src="images/Subway-logo.png" class="logo" alt="">
+        </div>
+        <div class="card-brand mr-30">
+          <img src="images/Kfc_logo-.png" class="logo" alt="">
+        </div>
+      </div>
+      <div class="carousel-wrapper-left">
+        <div class="card-brand mr-30">
+          <img src="images/Dunkin-logo.png" class="logo" alt="">
+        </div>
+        <div class="card-brand mr-30">
+          <img src="images/Google-logo.png" class="logo" alt="">
+        </div>
+        <div class="card-brand mr-30">
+          <img src="images/spotify-logo.png" class="logo" alt="">
+        </div>
+        <div class="card-brand mr-30">
+          <img src="images/Subway-logo.png" class="logo" alt="">
+        </div>
+        <div class="card-brand mr-30">
+          <img src="images/Kfc_logo-.png" class="logo" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Key Features Section -->
+  <section class="features mt-70">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="medium-header mb-10">
+            Key Features
+          </h3>
+          <p class="primary-copy mb-30">
+            Reliable system growth companies
+          </p>
+        </div>
+        <div class="col-lg-6 text-end">
+          <a href="" class="btn btn-secondary">View All</a>
+        </div>
+      </div>
+      <div class="row features-wrapper">
+        <div class="col-lg-7">
+          <div class="col-lg-12 mb-30">
+            <div class="big-feature-card">
+              <div class="icon">
+                <img src="images/icons8-building-100.png " alt="">
+              </div>
+              <div class="copy">
+                <h3 class="small-header mb-10">
+                  Good for Bussiness
+                </h3>
+                <p class="primary-copy mb-20">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et nihil mollitia blanditiis cupiditate
+                  provident amet impedit magnam vitae dolore? Qui.
+                </p>
+                <a href="#" class="text-button">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="big-feature-card">
+              <div class="icon">
+                <img src="images/icons8-documentation-64.png " alt="">
+              </div>
+              <div class="copy">
+                <h3 class="small-header mb-10">
+                  Official Documentation
+                </h3>
+                <p class="primary-copy mb-20">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et nihil mollitia blanditiis cupiditate
+                  provident amet impedit magnam vitae dolore? Qui.
+                </p>
+                <a href="#" class="text-button">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="col-lg-12 mb-30">
+            <div class="small-feature-card">
+              <div class="icon">
+                <img src="images/icons8-code-100.png " alt="">
+              </div>
+              <div class="copy">
+                <h3 class="small-header">
+                  No-Codes
+                </h3>
+                <p class="primary-copy">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, quos.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12 mb-30">
+            <div class="small-feature-card">
+              <div class="icon">
+                <img src="images/icons8-cash-register-100.png " alt="">
+              </div>
+              <div class="copy">
+                <h3 class="small-header">
+                  Payment
+                </h3>
+                <p class="primary-copy">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, quos.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12 mb-30">
+            <div class="small-feature-card">
+              <div class="icon">
+                <img src="images/icons8-analytics-100.png " alt="">
+              </div>
+              <div class="copy">
+                <h3 class="small-header">
+                  Analytics
+                </h3>
+                <p class="primary-copy">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, quos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Book Demo Feature -->
+  <section class="booking mt-70">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h3 class="medium-header mb-10">Book a Demo</h3>
+          <p class="primary-copy mb-30">
+            We will show you how amaizing our product is.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1">
+          <div class="row">
+            <div class="col-lg-6">
+              <img src="images/ilustration-img.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-6 booking-form align-self-center">
+              <form action="#">
+                <div class="mb-16">
+                  <input type="text" name="name" id="" class="form-control" placeholder="Complete Name">
+                </div>
+                <div class="mb-16">
+                  <input type="email" name="email_address" id="" class="form-control" placeholder="Email Address">
+                </div>
+                <div class="mb-16">
+                  <select name="" id="" class="form-select">
+                    <option value="">Select Your Interest</option>
+                    <option value="demo">Request Demo</option>
+                    <option value="payment">Payment Integrations</option>
+                    <option value="api">API Developments</option>
+                    <option value="sdk">SDK Builds</option>
+                  </select>
+                </div>
+                <div class="mb-30">
+                  <textarea placeholder="Write your message" name="" id="" cols="30" rows="5" class="form-control"></textarea>
+                </div>
+                <button class="w-100 btn btn-primary">Get Started</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
