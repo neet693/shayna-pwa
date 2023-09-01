@@ -9,7 +9,7 @@
     "description": "This is First Step to build PWA",
     "icons": [
       {
-        "src": "images/shayna-512.png",
+        "src": "images/cashier-icon.png",
         "sizes": "512x512",
         "type": "image/png"
       }
